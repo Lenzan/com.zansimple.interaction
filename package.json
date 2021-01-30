@@ -1,0 +1,19 @@
+{
+  "name": "com.zansimple.interaction",
+  "version": "0.0.1",
+  "displayName": "Interaction System Package",
+  "description": "交互包模块",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lenzan/com.zansimple.interaction.git"
+  },
+  "author": "zansimple",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lenzan/com.zansimple.interaction/issues"
+  },
+  "homepage": "https://github.com/Lenzan/com.zansimple.interaction#readme",
+  "dependencies": {
+    "com.zansimple.base": "1.0.1"
+  }
+}

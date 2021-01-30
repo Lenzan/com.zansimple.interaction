@@ -1,0 +1,16 @@
+{
+    "name": "InteractionSystem.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ddc822d4efd464141a1156c7034bd3c4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
