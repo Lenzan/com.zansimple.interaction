@@ -8,6 +8,7 @@ namespace Framework.InteractionSystem.Config
     {
         public string name;
 
+        [Multiline(3)]
         public string description;
         
         // 本地离散状态列表

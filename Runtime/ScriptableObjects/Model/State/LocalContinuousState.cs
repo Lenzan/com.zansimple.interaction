@@ -9,24 +9,25 @@ namespace Framework.InteractionSystem.Config
         /// <summary>
         /// 响应层
         /// </summary>
-        [SerializeField] private string layer;
+        [SerializeField]
+        private string _layer;
         
         /// <summary>
         /// 状态
         /// </summary>
-        [SerializeField] private string state;
+        [SerializeField] private string _state;
 
 
         public string Layer
         {
-            get => layer;
-            set => layer = value;
+            get => _layer;
+            set => _layer = value;
         }
 
         public string State
         {
-            get => state;
-            set => state = value;
+            get => _state;
+            set => _state = value;
         }
     }
 }

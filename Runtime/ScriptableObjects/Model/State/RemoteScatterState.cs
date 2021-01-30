@@ -10,34 +10,34 @@ namespace Framework.InteractionSystem.Config
         /// <summary>
         /// 远端 实体 ID
         /// </summary>
-        [SerializeField] private string remoteEntityId;
+        [SerializeField] private string _remoteEntityId;
         
         /// <summary>
         /// 远端响应层
         /// </summary>
-        [SerializeField] private string remoteEntityLayer;
+        [SerializeField] private string _remoteEntityLayer;
         
         /// <summary>
         /// 远端离散状态列表
         /// </summary>
-        [SerializeField] private List<string> remoteEntityStates;
+        [SerializeField] private List<string> _remoteEntityStates;
         
         public string RemoteEntityId
         {
-            get => remoteEntityId;
-            set => remoteEntityId = value;
+            get => _remoteEntityId;
+            set => _remoteEntityId = value;
         }
         
         public string RemoteEntityLayer
         {
-            get => remoteEntityLayer;
-            set => remoteEntityLayer = value;
+            get => _remoteEntityLayer;
+            set => _remoteEntityLayer = value;
         }
         
         public List<string> RemoteEntityStates
         {
-            get => remoteEntityStates;
-            set => remoteEntityStates = value;
+            get => _remoteEntityStates;
+            set => _remoteEntityStates = value;
         }
     }
 }

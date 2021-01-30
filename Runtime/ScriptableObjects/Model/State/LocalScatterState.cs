@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 namespace Framework.InteractionSystem.Config
@@ -10,24 +11,45 @@ namespace Framework.InteractionSystem.Config
         /// <summary>
         /// 响应层
         /// </summary>
-        [SerializeField] private string layer;
-        
+        [SerializeField] private string _layer;
+
+        /// <summary>
+        /// 是否需要初始化
+        /// </summary>
+        [SerializeField] private bool _needInit;
+
+        /// <summary>
+        /// 循环状态
+        /// </summary>
+        [SerializeField] private bool _looping;
         /// <summary>
         /// 离散列表
         /// </summary>
-        [SerializeField] private List<string> stateList;
+        [SerializeField] private List<string> _stateList;
         
 
         public string Layer
         {
-            get => layer;
-            set => layer = value;
+            get => _layer;
+            set => _layer = value;
+        }
+
+        public bool NeedInit
+        {
+            get => _needInit;
+            set => _needInit = value;
+        }
+
+        public bool Looping
+        {
+            get => _looping;
+            set => _looping = value;
         }
 
         public List<string> StateList
         {
-            get => stateList;
-            set => stateList = value;
+            get => _stateList;
+            set => _stateList = value;
         }
     }
     
